@@ -13,7 +13,7 @@
       <div class="row-fluid">
         <?php if(isset($msg)) { ?>                        
               <div class="alert alert-error">
-                <button type="button" class="close" data-dismiss="alert">×</button>                
+                <button type="button" class="close" data-dismiss="alert">ï¿½</button>                
                 <?php echo $msg;?>
               </div>  
         <?php } ?>    
@@ -27,7 +27,7 @@
             <label>Nama</label>
             <input id="nama" type="text" value="<?php echo $mk->nama;?>" name="nama" class="input-xlarge" />
             
-            <label>Category</label>
+            <label>Kategori</label>
             <select name="jenis" class="input-xlarge">            
               <option value="TEORI" <?php echo $mk->jenis === 'TEORI' ? 'selected':'';?> /> TEORI
               <option value="PRAKTIKUM" <?php echo $mk->jenis === 'PRAKTIKUM' ? 'selected':'';?> /> PRAKTIKUM            
@@ -48,8 +48,8 @@
 
         <footer>
           <hr />
-          <p class="pull-right">Design by <a href="http://www.portnine.com" target="_blank">Portnine</a></p>
-          <p>&copy; 2012 <a href="http://www.portnine.com" target="_blank">Portnine</a></p>
+          <p class="pull-right">Design by <a href="http://www.portnine.com" target="_blank">Luri Shafira</a></p>
+          <p>&copy; 2022 <a href="http://www.portnine.com" target="_blank">3121640029</a></p>
         </footer>
 
       </div>

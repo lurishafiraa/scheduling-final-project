@@ -10,13 +10,13 @@
    <div class="container-fluid">
          <?php if($this->session->flashdata('msg')) { ?>                        
             <div class="alert alert-error">
-              <button type="button" class="close" data-dismiss="alert">×</button>                
+              <button type="button" class="close" data-dismiss="alert">ï¿½</button>                
               <?php echo $this->session->flashdata('msg');?>
             </div>  
         <?php } ?>  
 
       <div class="row-fluid">
-        <a href="<?php echo base_url() . 'web/jam_add';?>"> <button class="btn btn-primary pull-right"><i class="icon-plus"></i> Konten Baru</button></a>     
+        <a href="<?php echo base_url() . 'web/jam_add';?>"> <button class="btn btn-primary pull-right"><i class="icon-plus"></i> Tambah Data</button></a>     
         <!--
         <form class="form-inline" method="POST" action="<?php echo base_url() . 'web/jam_search'?>">
           <input type="text" placeholder="Nama" name="search_query" value="<?php echo isset($search_query) ? $search_query : '' ;?>">
@@ -27,7 +27,7 @@
 		<br><br>
 		<?php if($rs_jam->num_rows() === 0):?>
 		<div class="alert alert-error">
-            <button type="button" class="close" data-dismiss="alert">×</button>             
+            <button type="button" class="close" data-dismiss="alert">ï¿½</button>             
 			Tidak ada data.
         </div>  
 		<?php else: ?> 	
@@ -62,8 +62,8 @@
         <?php endif; ?>
          <footer>
             <hr />
-            <p class="pull-right">Design by <a href="http://www.portnine.com" target="_blank">Portnine</a></p>
-            <p>&copy; 2012 <a href="http://www.portnine.com" target="_blank">Portnine</a></p>
+            <p class="pull-right">Design by <a href="http://www.portnine.com" target="_blank">Luri Shafira</a></p>
+          <p>&copy; 2022 <a href="http://www.portnine.com" target="_blank">3121640029</a></p>
          </footer>
       </div>
    </div>

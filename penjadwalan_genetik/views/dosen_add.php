@@ -12,14 +12,14 @@
       <div class="row-fluid">
         <?php if(isset($msg)) { ?>                        
               <div class="alert alert-error">
-                <button type="button" class="close" data-dismiss="alert">×</button>                
+                <button type="button" class="close" data-dismiss="alert">ï¿½</button>                
                 <?php echo $msg;?>
               </div>  
         <?php } ?>                     
 
 
         <form id="tab" method="POST" >
-            <label>NIDN</label>
+            <label>NIP</label>
             <input id="nidn" type="text" value="<?php echo set_value('nidn');?>" name="nidn" class="input-xlarge" />
             
             <label>Nama</label>
@@ -28,7 +28,7 @@
             <label>Alamat</label>
             <input id="alamat" type="text" value="<?php echo set_value('alamat');?>" name="alamat" class="input-xlarge" />
             
-            <label>Telp</label>
+            <label>Kontak</label>
             <input id="telp" type="text" value="<?php echo set_value('telp');?>" name="telp" class="input-xlarge" />       
             
 			
@@ -40,8 +40,8 @@
 
         <footer>
           <hr />
-          <p class="pull-right">Design by <a href="http://www.portnine.com" target="_blank">Portnine</a></p>
-          <p>&copy; 2012 <a href="http://www.portnine.com" target="_blank">Portnine</a></p>
+          <p class="pull-right">Design by <a href="http://www.portnine.com" target="_blank">Luri Shafira</a></p>
+          <p>&copy; 2022 <a href="http://www.portnine.com" target="_blank">3121640029</a></p>
         </footer>
 
       </div>

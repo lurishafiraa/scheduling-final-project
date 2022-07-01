@@ -13,7 +13,7 @@
       <div class="row-fluid">
         <?php if(isset($msg)) { ?>                        
               <div class="alert alert-error">
-                <button type="button" class="close" data-dismiss="alert">×</button>                
+                <button type="button" class="close" data-dismiss="alert">ï¿½</button>                
                 <?php echo $msg;?>
               </div>  
         <?php } ?>    
@@ -30,8 +30,8 @@
 
         <footer>
           <hr />
-          <p class="pull-right">Design by <a href="http://www.portnine.com" target="_blank">Portnine</a></p>
-          <p>&copy; 2012 <a href="http://www.portnine.com" target="_blank">Portnine</a></p>
+          <p class="pull-right">Design by <a href="http://www.portnine.com" target="_blank">Luri Shafira</a></p>
+          <p>&copy; 2022 <a href="http://www.portnine.com" target="_blank">3121640029</a></p>
         </footer>
       </div>
    </div>

@@ -79,7 +79,7 @@
 		<?php if($rs_jadwal->num_rows() === 0):?>
 		<!--
 		<div class="alert alert-error">
-            <button type="button" class="close" data-dismiss="alert">×</button>             
+            <button type="button" class="close" data-dismiss="alert">ï¿½</button>             
 			Tidak ada data.
         </div>
 		-->
@@ -142,8 +142,8 @@
         <?php endif; ?>
          <footer>
             <hr />
-            <p class="pull-right">Design by <a href="http://www.portnine.com" target="_blank">Portnine</a></p>
-            <p>&copy; 2012 <a href="http://www.portnine.com" target="_blank">Portnine</a></p>
+            <p class="pull-right">Design by <a href="http://www.portnine.com" target="_blank">Luri Shafira</a></p>
+          <p>&copy; 2022 <a href="http://www.portnine.com" target="_blank">3121640029</a></p>
          </footer>
       </div>
    </div>

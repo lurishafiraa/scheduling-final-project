@@ -9,7 +9,7 @@
                  <thead>
                     <tr>
 					   <th>#</th>
-                       <th>NIDN</th>
+                       <th>NIP</th>
                        <th>Nama</th>
                        <th>Telp</th>
                        <th style="width: 65px;"></th>

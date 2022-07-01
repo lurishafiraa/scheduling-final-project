@@ -14,7 +14,7 @@
       <div class="row-fluid">
         <?php if(isset($msg)) { ?>                        
               <div class="alert alert-error">
-                <button type="button" class="close" data-dismiss="alert">×</button>                
+                <button type="button" class="close" data-dismiss="alert">ï¿½</button>                
                 <?php echo $msg;?>
               </div>  
         <?php } ?>   
@@ -47,15 +47,13 @@
             
             <label>Tahun Akademik</label>
             <select id="tahun_akademik" name="tahun_akademik" class="input-xlarge">
-              <option value="2011-2012" <?php echo $pengampu->tahun_akademik === '2011-2012' ? 'selected':'';?> /> 2011-2012
-              <option value="2012-2013" <?php echo $pengampu->tahun_akademik === '2012-2013' ? 'selected':'';?> /> 2012-2013
-              <option value="2013-2014" <?php echo $pengampu->tahun_akademik === '2013-2014' ? 'selected':'';?> /> 2013-2014
-              <option value="2014-2015" <?php echo $pengampu->tahun_akademik === '2014-2015' ? 'selected':'';?> /> 2014-2015
               <option value="2015-2016" <?php echo $pengampu->tahun_akademik === '2015-2016' ? 'selected':'';?> /> 2015-2016
               <option value="2016-2017" <?php echo $pengampu->tahun_akademik === '2016-2017' ? 'selected':'';?> /> 2016-2017
               <option value="2017-2018" <?php echo $pengampu->tahun_akademik === '2017-2018' ? 'selected':'';?> /> 2017-2018
               <option value="2018-2019" <?php echo $pengampu->tahun_akademik === '2018-2019' ? 'selected':'';?> /> 2018-2019
-              <option value="2019-2020" <?php echo $pengampu->tahun_akademik === '2019-2020' ? 'selected':'';?> /> 2019-2020            
+              <option value="2019-2020" <?php echo $pengampu->tahun_akademik === '2019-2020' ? 'selected':'';?> /> 2019-2020
+              <option value="2020-2021" <?php echo $pengampu->tahun_akademik === '2020-2021' ? 'selected':'';?> /> 2020-2021
+              <option value="2021-2022" <?php echo $pengampu->tahun_akademik === '2021-2022' ? 'selected':'';?> /> 2021-2022              
             </select>
 			
             <div class="form-actions">
@@ -66,8 +64,8 @@
 
         <footer>
           <hr />
-          <p class="pull-right">Design by <a href="http://www.portnine.com" target="_blank">Portnine</a></p>
-          <p>&copy; 2012 <a href="http://www.portnine.com" target="_blank">Portnine</a></p>
+          <p class="pull-right">Design by <a href="http://www.portnine.com" target="_blank">Luri Shafira</a></p>
+          <p>&copy; 2022 <a href="http://www.portnine.com" target="_blank">3121640029</a></p>
         </footer>
 
       </div>

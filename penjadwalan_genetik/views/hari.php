@@ -10,13 +10,13 @@
    <div class="container-fluid">
          <?php if($this->session->flashdata('msg')) { ?>                        
             <div class="alert alert-error">
-              <button type="button" class="close" data-dismiss="alert">×</button>                
+              <button type="button" class="close" data-dismiss="alert">ï¿½</button>                
               <?php echo $this->session->flashdata('msg');?>
             </div>  
         <?php } ?>  
 
       <div class="row-fluid">
-        <a href="<?php echo base_url() . 'web/hari_add';?>"> <button class="btn btn-primary pull-right"><i class="icon-plus"></i> Konten Baru</button></a>     
+        <a href="<?php echo base_url() . 'web/hari_add';?>"> <button class="btn btn-primary pull-right"><i class="icon-plus"></i> Tambah Data</button></a>     
         <!--
         <form class="form-inline" method="POST" action="<?php echo base_url() . 'web/hari_search'?>">
           <input type="text" placeholder="Nama" name="search_query" value="<?php echo isset($search_query) ? $search_query : '' ;?>">
@@ -28,7 +28,7 @@
 		 <br>
 		<?php if($rs_hari->num_rows() === 0):?>
 		<div class="alert alert-error">
-            <button type="button" class="close" data-dismiss="alert">×</button>             
+            <button type="button" class="close" data-dismiss="alert">ï¿½</button>             
 			Tidak ada data.
         </div>  
 		<?php else: ?> 	
